@@ -54,19 +54,19 @@ O objetivo principal é demonstrar o domínio sobre alocação dinâmica (`mallo
 Esta é a forma manual e garantida de funcionar em qualquer terminal.
 Na pasta raiz do projeto, execute:
 
-```
+```bash
     gcc src/main.c src/board.c src/fleet.c src/game.c src/io.c -o batalha_naval
 ```
 
 Em seguida execute:
 
 ## Para Windows (no terminal)
-```
+```bash
     .\batalha_naval.exe
 ```
 
 ## Para Linux/Mac (no terminal)
-```
+```bash
     ./batalha_naval
 ```
 
@@ -74,7 +74,7 @@ Em seguida execute:
 Se você estiver em ambiente Linux ou com MinGW configurado.
 Na pasta raiz do projeto, execute:
 
-```
+```bash
     make
     
     make run
